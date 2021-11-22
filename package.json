@@ -1,0 +1,20 @@
+{
+  "name": "touchstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source-map.js",
+  "scripts": {
+    "start": "nodemon  app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": "true",
+  "author": "@vdocipher/js-team",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "vlq": "^2.0.4"
+  }
+}
