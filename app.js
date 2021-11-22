@@ -27,5 +27,6 @@ app.get("/api/:payload", (req, res) => {
       res.send(JSON.stringify({ success: false, error }));
     });
 });
-
-app.listen(port, () => console.log("Listening @ 3000"));
+app.listen(process.env.PORT || 5000, function () {
+  console.log("Server running @ 5000");
+});
